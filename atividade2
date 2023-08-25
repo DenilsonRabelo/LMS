@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site de vendas</title>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Site de vendas</h1>
+  </header>
+
+  <!-- Menu -->
+  <nav>
+    <ul>
+      <li><a href="https://www.amazon.com.br/">Amazon</a></li>
+      <li><a href="https://www.polishop.com.br/">polishop</a></li>
+      <li>
+        <a href="https://www.terabyteshop.com.br">
+          <img
+            src="https://4linux.com.br/consultoria/wp-content/uploads/sites/3/2020/07/mongodb.png"
+            alt=""
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Tabela de Produtos -->
+  <section>
+    <h2>Produtos</h2>
+    <table>
+      <tr>
+        <th><strong>Nome</strong></th>
+        <th>Valor</th>
+        <th>Quantidade</th>
+      </tr>
+      <tr>
+        <td><strong>ipod</strong></td>
+        <td>200</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td><strong>notebook</strong></td>
+        <td>25000</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td><strong>celular</strong></td>
+        <td>300</td>
+        <td>10</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Formulário de Cadastro de Usuários -->
+  <article>
+    <h2>Cadastro de Usuários</h2>
+    <form action="https://www.w3schools.com/action_page.php" method="GET">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" maxlength="15" required>
+      <br>
+
+      <label for="info">Informação:</label>
+      <input type="text" id="info" name="info" readonly>
+      <br>
+
+      <label for="numero">Número (25000-30000):</label>
+      <input type="number" id="numero" name="numero" min="25000" max="30000" required>
+      <br>
+
+      <label>Tipo:</label>
+      <input type="radio" name="tipo" value="Opção 1"> Opção 1
+      <input type="radio" name="tipo" value="Opção 2"> Opção 2
+      <br>
+
+      <label>Interesses:</label>
+      <input type="checkbox" name="interesse1" value="Interesse 1"> Interesse 1
+      <input type="checkbox" name="interesse2" value="Interesse 2"> Interesse 2
+      <br>
+
+      <input type="submit" value="Cadastrar">
+    </form>
+  </article>
+</body>
+</html>
