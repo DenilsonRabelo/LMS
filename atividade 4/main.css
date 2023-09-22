@@ -1,4 +1,4 @@
-        /* Estilo para o navegador superior móvel */
+
         .mobile-nav {
             background-color: #333;
             position: fixed;
@@ -22,7 +22,6 @@
             background-color: #777;
         }
 
-        /* Estilo para o layout */
         .container {
             margin-top: 50px;
             display: flex;
@@ -47,9 +46,8 @@
             min-height: 100vh;
         }
 
-        /* Estilo para a galeria responsiva */
         .gallery {
-            width: 600px; /* 3 vezes a largura do menu lateral direito */
+            width: 600px; 
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -61,7 +59,6 @@
             margin: 10px;
         }
 
-        /* Estilo para o rodapé */
         .footer {
             background-color: #333;
             color: #fff;
