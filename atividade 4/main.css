@@ -1,0 +1,70 @@
+        /* Estilo para o navegador superior móvel */
+        .mobile-nav {
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .nav-button {
+            background-color: #555;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .nav-button:hover {
+            background-color: #777;
+        }
+
+        /* Estilo para o layout */
+        .container {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .left-menu {
+            width: 300px;
+            background-color: #eee;
+            min-height: 100vh;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        .right-menu {
+            width: 200px;
+            background-color: #eee;
+            min-height: 100vh;
+        }
+
+        /* Estilo para a galeria responsiva */
+        .gallery {
+            width: 600px; /* 3 vezes a largura do menu lateral direito */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }
+
+        /* Estilo para o rodapé */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
